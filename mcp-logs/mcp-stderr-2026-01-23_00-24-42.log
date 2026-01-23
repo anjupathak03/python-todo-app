@@ -1,0 +1,15 @@
+{"level":"info","ts":"2026-01-23T00:24:42.582+0530","msg":"Initializing Keploy MCP server"}
+{"level":"info","ts":"2026-01-23T00:24:42.582+0530","msg":"Starting Keploy MCP server on stdio transport"}
+{"level":"info","ts":"2026-01-23T00:24:42.590+0530","msg":"Registered MCP tools","tools":["keploy_list_mocks","keploy_mock_record","keploy_mock_test"]}
+{"level":"info","ts":"2026-01-23T00:24:42.590+0530","msg":"Starting Keploy MCP server on stdio transport"}
+{"level":"info","ts":"2026-01-23T00:24:42.591+0530","msg":"MCP client connected and initialized"}
+{"level":"info","ts":"2026-01-23T00:25:21.820+0530","msg":"Mock record tool invoked","command":"python -m pytest test_app.py -v","path":"./keploy"}
+{"level":"info","ts":"2026-01-23T00:25:21.820+0530","msg":"Starting mock recording with configuration","command":"python -m pytest test_app.py -v","path":"./keploy"}
+{"level":"info","ts":"2026-01-23T00:25:33.340+0530","msg":"Renamed mock directory","oldPath":"keploy\\mock-1769108121","newPath":"keploy\\m-mysql-20260123-002521"}
+{"level":"info","ts":"2026-01-23T00:25:33.340+0530","msg":"Mock recording completed successfully","mockFilePath":"keploy\\m-mysql-20260123-002521\\mocks.yaml","mockCount":205,"protocols":["MySQL"]}
+{"level":"info","ts":"2026-01-23T00:25:38.164+0530","msg":"List mocks tool invoked","path":"./keploy"}
+{"level":"info","ts":"2026-01-23T00:25:38.164+0530","msg":"Scanning directory for mock sets","path":"./keploy"}
+{"level":"info","ts":"2026-01-23T00:25:38.164+0530","msg":"Found mock sets","path":"./keploy","count":7,"mockSets":["m-mysql-20260123-002521","mock-1769107808","mock-1769107678","mock-1769107559","mock-1769107470","mock-1769107091","mock-1769106800"]}
+{"level":"info","ts":"2026-01-23T00:26:18.825+0530","msg":"Mock replay tool invoked","command":"python -m pytest test_app.py -v","mockName":"m-mysql-20260123-002521","fallBackOnMiss":false}
+{"level":"info","ts":"2026-01-23T00:26:18.825+0530","msg":"Starting mock replay with configuration","command":"python -m pytest test_app.py -v","mockName":"m-mysql-20260123-002521","fallBackOnMiss":false}
+{"level":"info","ts":"2026-01-23T00:26:37.436+0530","msg":"Mock replay completed","success":false,"mocksReplayed":82,"mocksMissed":123,"exitCode":1}

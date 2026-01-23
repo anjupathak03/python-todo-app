@@ -1,0 +1,58 @@
+🐰 Keploy: 2026-01-23T00:25:21.9045742+05:30 	[34mINFO[0m	Starting the agent in 	{"mode": "record"}
+🐰 Keploy: 2026-01-23T00:25:22.442412+05:30 	[34mINFO[0m	starting UDP DNS server at addr :26789
+🐰 Keploy: 2026-01-23T00:25:22.4429381+05:30 	[34mINFO[0m	starting TCP DNS server at addr :26789
+🐰 Keploy: 2026-01-23T00:25:22.4434507+05:30 	[34mINFO[0m	Keploy has taken control of the DNS resolution mechanism, your application may misbehave if you have provided wrong domain name in your application code.
+🐰 Keploy: 2026-01-23T00:25:22.4440859+05:30 	[34mINFO[0m	Proxy started at port:16789
+🐰 Keploy: 2026-01-23T00:25:22.4440859+05:30 	[34mINFO[0m	Starting Agent's HTTP server on :	{"port": 50849}
+🐰 Keploy: 2026-01-23T00:25:22.8401509+05:30 	[34mINFO[0m	🟢 Received request to handle incoming test cases
+🐰 Keploy: 2026-01-23T00:25:22.8401509+05:30 	[34mINFO[0m	🟢 Streaming incoming test cases to client
+🐰 Keploy: 2026-01-23T00:25:22.8417345+05:30 	[34mINFO[0m	🟢 Received request to handle outgoing mocks...
+🐰 Keploy: 2026-01-23T00:25:22.8422671+05:30 	[34mINFO[0m	🟢 Streaming outgoing mocks to client...
+🐰 Keploy: 2026-01-23T00:25:24.0371188+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:24.0913703+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:24.0949144+05:30 	[31mERROR[0m	failed to decode handshake response packet	{"Type": "mysql", "Client ConnectionID": "2", "Destination ConnectionID": "3", "Client IP Address": "127.0.0.1:50868", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:24.0949144+05:30 	[31mERROR[0m	failed to handle initial handshake	{"Type": "mysql", "Client ConnectionID": "2", "Destination ConnectionID": "3", "Client IP Address": "127.0.0.1:50868", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:24.0949144+05:30 	[31mERROR[0m	failed to encode the mysql message into the yaml	{"Type": "mysql", "Client ConnectionID": "2", "Destination ConnectionID": "3", "Client IP Address": "127.0.0.1:50868", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:24.0949144+05:30 	[31mERROR[0m	failed to record the outgoing message	{"error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:24.0954951+05:30 	[31mERROR[0m	failed to handle the client connection	{"error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:26.1391081+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:26.1841523+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:26.2344851+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:26.2889776+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:26.3165076+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:26.3477316+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:26.3510907+05:30 	[31mERROR[0m	failed to decode handshake response packet	{"Type": "mysql", "Client ConnectionID": "14", "Destination ConnectionID": "15", "Client IP Address": "127.0.0.1:50926", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:26.3510907+05:30 	[31mERROR[0m	failed to handle initial handshake	{"Type": "mysql", "Client ConnectionID": "14", "Destination ConnectionID": "15", "Client IP Address": "127.0.0.1:50926", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:26.3510907+05:30 	[31mERROR[0m	failed to encode the mysql message into the yaml	{"Type": "mysql", "Client ConnectionID": "14", "Destination ConnectionID": "15", "Client IP Address": "127.0.0.1:50926", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:26.3510907+05:30 	[31mERROR[0m	failed to record the outgoing message	{"error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:26.3510907+05:30 	[31mERROR[0m	failed to handle the client connection	{"error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:28.3832677+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:28.4284664+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:28.4520696+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:28.4954199+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:28.5416831+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:28.5643358+05:30 	[31mERROR[0m	failed to decode handshake response packet	{"Type": "mysql", "Client ConnectionID": "24", "Destination ConnectionID": "25", "Client IP Address": "127.0.0.1:50979", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:28.5643358+05:30 	[31mERROR[0m	failed to handle initial handshake	{"Type": "mysql", "Client ConnectionID": "24", "Destination ConnectionID": "25", "Client IP Address": "127.0.0.1:50979", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:28.5643358+05:30 	[31mERROR[0m	failed to encode the mysql message into the yaml	{"Type": "mysql", "Client ConnectionID": "24", "Destination ConnectionID": "25", "Client IP Address": "127.0.0.1:50979", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:28.5643358+05:30 	[31mERROR[0m	failed to record the outgoing message	{"error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:28.5650409+05:30 	[31mERROR[0m	failed to handle the client connection	{"error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:30.5682597+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:30.589614+05:30 	[31mERROR[0m	failed to decode handshake response packet	{"Type": "mysql", "Client ConnectionID": "26", "Destination ConnectionID": "27", "Client IP Address": "127.0.0.1:50981", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:30.589614+05:30 	[31mERROR[0m	failed to handle initial handshake	{"Type": "mysql", "Client ConnectionID": "26", "Destination ConnectionID": "27", "Client IP Address": "127.0.0.1:50981", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:30.589614+05:30 	[31mERROR[0m	failed to encode the mysql message into the yaml	{"Type": "mysql", "Client ConnectionID": "26", "Destination ConnectionID": "27", "Client IP Address": "127.0.0.1:50981", "error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:30.589614+05:30 	[31mERROR[0m	failed to record the outgoing message	{"error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:30.589614+05:30 	[31mERROR[0m	failed to handle the client connection	{"error": "failed to decode packet: failed to decode HandshakeResponse41 packet: malformed handshake response packet: missing null terminator for AuthPluginName"}
+🐰 Keploy: 2026-01-23T00:25:32.630836+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:32.6722859+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:32.7036821+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:32.7357858+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:32.7875625+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:32.8615136+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:32.9150298+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:32.9445401+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:33.0085499+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:33.0366474+05:30 	[34mINFO[0m	🟢 Handling outgoing connection to destination port	{"Destination port": 3306}
+🐰 Keploy: 2026-01-23T00:25:33.1678539+05:30 	[34mINFO[0m	stopping Keploy	{"reason": "stop requested via agent API"}
+🐰 Keploy: 2026-01-23T00:25:33.2667208+05:30 	[34mINFO[0m	proxy stopped...
+🐰 Keploy: 2026-01-23T00:25:33.316298+05:30 	[34mINFO[0m	Successfully unloaded Windows hooks
+🐰 Keploy: 2026-01-23T00:25:33.316298+05:30 	[34mINFO[0m	Context cancelled, stopping the agent

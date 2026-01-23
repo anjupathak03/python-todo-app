@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "keploy": {
+      "type": "stdio",
+      "command": "C:\\Users\\nehap\\keploy\\keploy.exe",
+      "args": ["mcp", "serve"]
+    }
+  }
+}
