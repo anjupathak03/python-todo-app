@@ -51,8 +51,8 @@ class Database:
         cursor = None
         
         # Retry logic for Keploy proxy
-        max_retries = 3
-        retry_delay = 2  # seconds
+        max_retries = 10
+        retry_delay = 5  # seconds
         last_error = None
         
         for attempt in range(max_retries):
